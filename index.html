@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Mohammad Aman</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .school-logo {
+            display: inline-block;
+            vertical-align: middle;
+            height: 40px;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Mohammad Aman</a>
+            <div class="nav-links">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <button class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content animate-slide-in">
+                <span class="badge">👨‍💻 AI/ML Enthusiast</span>
+                <h1>Hi, I am Mohammad Aman ✨</h1>
+                <p>Computer Science student at LPU, passionate about AI, ML, and real-world tech solutions. 🚀</p>
+                <div class="button-group">
+                    <a href="#projects" class="btn btn-primary animate-fade-in">View My Work →</a>
+                    <a href="#contact" class="btn btn-secondary animate-fade-in">Get in Touch</a>
+                </div>
+            </div>
+            <div class="profile-image-container animate-fade-in">
+                <img src="profilr.jpg" alt="Mohammad Aman" class="profile-image">
+                <div class="orbit"></div>
+                <div class="orbit orbit-2"></div>
+                <div class="orbit orbit-3"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content animate-on-scroll">
+                <h2>About Me 🎯</h2>
+                <div class="about-text-card">
+                    <p>I am Mohammad Aman, a CSE undergraduate at Lovely Professional University. My interests include Natural Language Processing, Computer Vision, and AI-driven product development. I've worked with multilingual models like mBART, MarianMT, and built real-time detection systems with YOLO.</p>
+                    <p>I’m curious by nature and driven by problem-solving. From ML research to building a Spotify-powered music recommender, I aim to innovate with impact.</p>
+                </div>
+                <div class="skills-container">
+                    <div class="skills-card technical-skills">
+                        <h3>Technical Skills 💻</h3>
+                        <div class="skills-tags">
+                            <span class="skill-tag">Java</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Kotlin</span>
+                            <span class="skill-tag">C++</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">Pandas</span>
+                            <span class="skill-tag">NumPy</span>
+                            <span class="skill-tag">YOLO</span>
+                            <span class="skill-tag">PyTorch</span>
+                        </div>
+                    </div>
+                    <div class="skills-card soft-skills">
+                        <h3>Soft Skills 🤝</h3>
+                        <div class="skills-tags">
+                            <span class="skill-tag">Problem-Solving</span>
+                            <span class="skill-tag">Leadership</span>
+                            <span class="skill-tag">Communication</span>
+                            <span class="skill-tag">Critical Thinking</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="resume-card">
+                    <h3>Resume 📄</h3>
+                    <p>Want to know more about my projects and certifications?</p>
+                    <a href="https://drive.google.com/file/d/1Ux_ytxgykYmTvtwNl3A8W9u705TUO_VT/view?usp=drive_link" class="btn btn-primary">Get My Resume</a>
+                </div>
+                <div class="education-card">
+                    <h3>Education 📚</h3>
+                    <ul>
+                        <li>
+                            
+                               <a href="https://www.lpu.in/programmes/engineering/b-tech-computer-science#info"><img src="Lovely_Professional_University_logo.png" alt="LPU Logo" class="school-logo"></a> 
+                               <p class="school"> Lovely Professional University
+                            </p>
+                            <p class="degree">B.Tech CSE | CGPA: 7.40</p>
+                        </li>
+                        <li>
+                            <p class="school">🏫 Ratna Memorial Public School</p>
+                            <p class="degree">Intermediate | 85%</p>
+                        </li>
+                        <li>
+                            <p class="school">🏫 Nav Jeevan Mission School</p>
+                            <p class="degree">Matriculation | 78.2%</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="animate-on-scroll">Featured Projects 💡</h2>
+            <div class="projects-grid">
+                <!-- Updated Project Card 1 -->
+                <div class="project-card animate-on-scroll">
+                    <div class="project-icon">📖</div>
+                    <h3>Cross Lingual Text Generation</h3>
+                    <p>Authored a chapter on cross-lingual generation using mBART and MarianMT, published by Cambridge Scholars (Dec 2024).</p>
+                    <div class="project-tags">
+                        <span class="tag">mBART</span>
+                        <span class="tag">MarianMT</span>
+                        <span class="tag">NLP</span>
+                    </div>
+                </div>
+                <!-- Updated Project Card 2 -->
+                <div class="project-card animate-on-scroll">
+                    <div class="project-icon">🎵</div>
+                    <h3>Music Recommender System</h3>
+                    <p>Developed a personalized music recommender using Last.fm API, Numpy, Pandas, and collaborative filtering techniques.</p>
+                    <div class="project-tags">
+                        <span class="tag">Last.fm</span>
+                        <span class="tag">Pandas</span>
+                        <span class="tag">Collaborative Filtering</span>
+                    </div>
+                </div>
+                <!-- Updated Project Card 3 -->
+                <div class="project-card animate-on-scroll">
+                    <div class="project-icon">🐾</div>
+                    <h3>Image Recognition with YOLO</h3>
+                    <p>Real-time animal detection using YOLO and Python. Integrated live camera feeds for visual classification and tracking.</p>
+                    <div class="project-tags">
+                        <span class="tag">YOLO</span>
+                        <span class="tag">OpenCV</span>
+                        <span class="tag">Python</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content animate-on-scroll">
+                <h2>Suggestions & Feedback ✉</h2>
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label>👤 Name</label>
+                        <input type="text" required>
+                    </div>
+                    <div class="form-group">
+                        <label>📧 Email</label>
+                        <input type="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label>💭 Message</label>
+                        <textarea required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message 🚀</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
